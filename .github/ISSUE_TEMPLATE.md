@@ -1,4 +1,4 @@
-* DRAGON Baseline BERT Base Multilingual version:
+* DRAGON BERT Base General-domain version:
 * Python version:
 * Operating System:
 

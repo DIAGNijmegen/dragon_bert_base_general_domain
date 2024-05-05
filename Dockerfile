@@ -23,7 +23,7 @@ RUN python -m pip install --user -r requirements.txt
 # Download the model, tokenizer and metrics
 RUN mkdir -p /opt/app/models
 COPY --chown=user:user download_model.py /opt/app/
-RUN python download_model.py --model_name bert-base-multilingual-cased
+RUN python download_model.py --model_name GroNLP/bert-base-dutch-cased
 COPY --chown=user:user download_metrics.py /opt/app/
 RUN python download_metrics.py
 
